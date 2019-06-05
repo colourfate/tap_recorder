@@ -17,12 +17,12 @@ c3440aa3        device
 
 3. 进行点击记录，执行以下命令，其中filename为记录坐标的文件名
 ```bash
-./tap_recorder.sh -r <filename>
+$ ./tap_recorder.sh -r <filename>
 ```
 
 4. 读取坐标文件，模拟用户点击，执行以下命令，其中filename为刚才记录的坐标文件，time为需要重复的次数
 ```bash
-./tap_recorder.sh <filename> <time>
+$ ./tap_recorder.sh <filename> <time>
 ```
 
 PS: 目前只支持横屏模式，屏幕宽度为1080像素，不同手机需要修改，竖屏需要改脚本
