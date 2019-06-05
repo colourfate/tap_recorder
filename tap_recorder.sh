@@ -40,7 +40,7 @@ if [ record = true ]; then
 else
 	echo 当前是横屏模式，读取$1文件，执行$2次
 
-	for j in {1..$2}
+	for j in `seq 1 $2`
 	do
 		sleep 5
 		last_time=0
