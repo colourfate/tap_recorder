@@ -22,8 +22,8 @@ if [ $# = 2 ]; then
 else
 	echo "Usage: $0 <<filename> <time>> | <-r <filename>>"
 	echo fliename: 要载入/记录的文件名
-	echo -r: 记录点击坐标到文件
 	echo time: 要总共要执行的次数
+	echo -r: 记录点击坐标到文件
 	exit 0
 fi
 
